@@ -27,7 +27,7 @@ function mostrarPokemon(data){
     div.className = 'pokemon_container';
     div.innerHTML = `
     <p class="id_background">#${id}</p>
-    <img src="${data.sprites.other['official-artwork'].front_default}" alt="pikachu" class="img_pokemon" />
+    <img src="${data.sprites.other['official-artwork'].front_default}" alt="${data.name} imagen" class="img_pokemon" />
     <div class="pokemon_info">
         <p class="id">${id}</p>
         <h4 class="pokemon_nombre">${data.name}</h4>
